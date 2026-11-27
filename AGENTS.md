@@ -31,7 +31,7 @@ Una vez que el código es simple, aplica SOLID:
 - Dependency Inversion
 
 ## Arquitectura y Estructura
-# Organización de Carpetas
+Organización de Carpetas
 src/
 ├── components/          # Componentes Vue reutilizables
 │   ├── atomic/         # Componentes atómicos (Button, Input, etc)
