@@ -1,4 +1,22 @@
-Principios Fundamentales
+MARKDOWN · AGENTS.MD
+# Feria Andina · instrucciones para agentes de IA
+## Stack
+- Front: React + TypeScript + Redux Toolkit (carpeta /web)
+- Back: Node + Express + PostgreSQL (carpeta /api)
+## Comandos
+- Instalar dependencias: npm install
+- Correr tests: npm test
+- Revisar estilo: npm run lint
+## Convenciones
+- TypeScript estricto: no usar `any`.
+- Nombres del dominio en español: producto, pedido, cooperativa.
+- Commits con Conventional Commits (feat:, fix:, docs:, test:).
+## No hacer
+- No agregar dependencias nuevas sin avisar.
+- No leer ni modificar archivos .env.
+- No cambiar la estructura de carpetas.
+
+## Principios Fundamentales
 1. KISS primero (Keep It Simple, Stupid)
 - Evita complejidad innecesaria
 - Soluciona el problema directamente sin sobre-ingeniería
@@ -12,10 +30,8 @@ Una vez que el código es simple, aplica SOLID:
 - Interface Segregation
 - Dependency Inversion
 
-Agrega eso en el agents.md como restricciones
-
-Arquitectura y Estructura
-Organización de Carpetas
+## Arquitectura y Estructura
+# Organización de Carpetas
 src/
 ├── components/          # Componentes Vue reutilizables
 │   ├── atomic/         # Componentes atómicos (Button, Input, etc)
