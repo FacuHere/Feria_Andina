@@ -30,7 +30,6 @@ Una vez que el código es simple, aplica SOLID:
 - Interface Segregation
 - Dependency Inversion
 
-
 ## Arquitectura y Estructura
 Organización de Carpetas
 src/
